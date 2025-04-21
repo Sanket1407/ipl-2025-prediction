@@ -1,3 +1,4 @@
+
 # 🏏 IPL 2025 Prediction — Match & Toss Winner Forecasting
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
@@ -12,10 +13,12 @@ This repository contains a complete machine learning pipeline to forecast **Toss
 
 ```
 📦 IPL-2025-Prediction
-├── IPL_2025_Storytelling_Report.md           # Markdown with match-by-match predictions & insights
-├── IPL_2025_Major_Capstone_Project.ipynb     # Jupyter notebook for the project
+├── matches.csv                       # Historical match-level data
+├── deliveries.csv                    # Historical ball-by-ball data
+├── IPL-Season-Schedule-2025.csv      # Cleaned match schedule for 2025
+├── IPL_2025_Storytelling_Report.md   # Markdown with match-by-match predictions & insights
 ├── IPL_2025_Match_Storytelling_Generator.py  # Script to generate the report
-└── README.md                                 # This file
+└── README.md                         # This file
 ```
 
 ---
@@ -36,6 +39,26 @@ This repository contains a complete machine learning pipeline to forecast **Toss
 
 ---
 
+## 🚀 How to Use
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/ipl-2025-prediction.git
+cd ipl-2025-prediction
+
+# (Optional) Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the script to generate match predictions
+python IPL_2025_Match_Storytelling_Generator.py
+```
+
+---
+
 ## 📈 Visualizations
 
 The project also includes:
@@ -53,9 +76,16 @@ The project also includes:
 
 ---
 
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
 ## 🙌 Credits
 
-Created as part of a Major Capstone Project by [Sanket Parmar]  
+Created as part of a Major Capstone Project by [Your Name]  
+Built using data from [Kaggle IPL Dataset](https://www.kaggle.com/datasets)
 
 ---
 
