@@ -13,11 +13,7 @@ This repository contains a complete machine learning pipeline to forecast **Toss
 
 ```
 📦 IPL-2025-Prediction
-├── matches.csv                       # Historical match-level data
-├── deliveries.csv                    # Historical ball-by-ball data
-├── IPL-Season-Schedule-2025.csv      # Cleaned match schedule for 2025
 ├── IPL_2025_Storytelling_Report.md   # Markdown with match-by-match predictions & insights
-├── IPL_2025_Match_Storytelling_Generator.py  # Script to generate the report
 └── README.md                         # This file
 ```
 
@@ -36,26 +32,6 @@ This repository contains a complete machine learning pipeline to forecast **Toss
   - Model rationale
   - Head-to-head stats
   - Toss and chasing advantages
-
----
-
-## 🚀 How to Use
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/ipl-2025-prediction.git
-cd ipl-2025-prediction
-
-# (Optional) Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the script to generate match predictions
-python IPL_2025_Match_Storytelling_Generator.py
-```
 
 ---
 
