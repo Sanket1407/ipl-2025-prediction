@@ -52,16 +52,9 @@ The project also includes:
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 🙌 Credits
 
-Created as part of a Major Capstone Project by [Your Name]  
-Built using data from [Kaggle IPL Dataset](https://www.kaggle.com/datasets)
+Created as part of a Major Capstone Project by [Sanket Parmar]  
 
 ---
 
